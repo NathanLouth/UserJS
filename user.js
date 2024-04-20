@@ -1216,6 +1216,7 @@ user_pref("identity.fxaccounts.enabled", false);
 user_pref("browser.preferences.moreFromMozilla", false);
 user_pref("extensions.pocket.enabled", false);
 user_pref("privacy.resistFingerprinting.letterboxing", false);
+user_pref("privacy.resistFingerprinting.target_video_res", 1080);
 
 /* END: internal custom pref to test for syntax errors ***/
 user_pref("_user.js.parrot", "SUCCESS: No no he's not dead, he's, he's restin'!");
