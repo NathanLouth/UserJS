@@ -1,6 +1,6 @@
 /******
 *    name: arkenfox user.js (Custom Edit)
-*    date: 5 February 2024 (Custom Edit 11 April 2024)
+*    date: 5 February 2024 (Custom Edit 02 May 2024)
 * version: 122
 *    urls: https://github.com/arkenfox/user.js [repo]
 *        : https://arkenfox.github.io/gui/ [interactive]
@@ -1212,11 +1212,13 @@ user_pref("security.family_safety.mode", 0);
 user_pref("network.dns.skipTRR-when-parental-control-enabled", false);
 // ***/
 
-user_pref("identity.fxaccounts.enabled", false);
-user_pref("browser.preferences.moreFromMozilla", false);
-user_pref("extensions.pocket.enabled", false);
-user_pref("privacy.resistFingerprinting.letterboxing", false);
-user_pref("privacy.resistFingerprinting.target_video_res", 1080);
+//Custom Edit Settings
+user_pref("identity.fxaccounts.enabled", false); // Removes Firefox Sync and Account Features
+user_pref("browser.preferences.moreFromMozilla", false); // Removes More From Mozilla in Settings
+user_pref("extensions.pocket.enabled", false); // Removes Firefox Pocket
+user_pref("privacy.resistFingerprinting.letterboxing", false); // Removes Letterbox bars when full screen
+user_pref("privacy.resistFingerprinting.target_video_res", 1080); // sets Target Video Resolution to 1080p
+user_pref("privacy.resistFingerprinting", False); // Enable Fingerprinting (required for streaming sites)
 
 /* END: internal custom pref to test for syntax errors ***/
 user_pref("_user.js.parrot", "SUCCESS: No no he's not dead, he's, he's restin'!");
