@@ -1219,6 +1219,8 @@ user_pref("extensions.pocket.enabled", false); // Removes Firefox Pocket
 user_pref("privacy.resistFingerprinting.letterboxing", false); // Removes Letterbox bars when full screen
 user_pref("privacy.resistFingerprinting.target_video_res", 1080); // sets Target Video Resolution to 1080p
 user_pref("privacy.resistFingerprinting", false); // Enable Fingerprinting (required for streaming sites)
+user_pref("browser.urlbar.placeholderName", "DuckDuckGo"); // Set  DuckDuckGo as default Search Engine
+user_pref("browser.urlbar.placeholderName.private", "DuckDuckGo"); // Set  DuckDuckGo as default Search Engine (InPrivate Mode)
 
 /* END: internal custom pref to test for syntax errors ***/
 user_pref("_user.js.parrot", "SUCCESS: No no he's not dead, he's, he's restin'!");
